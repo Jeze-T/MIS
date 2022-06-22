@@ -49,8 +49,8 @@ class LoginWindow(QtWidgets.QMainWindow, Login_Ui):
         # 创建数据库连接
         conn = pymysql.connect(
             host='127.0.0.1',  # 连接主机, 默认127.0.0.1
-            user='root',  # 用户名
-            passwd='mysql',  # 密码
+            user='',  # 用户名
+            passwd='',  # 密码
             port=3306,  # 端口，默认为3306
             db='sxnb19031102',  # 数据库名称
             charset='utf8'  # 字符编码
